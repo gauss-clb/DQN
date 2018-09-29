@@ -40,7 +40,7 @@ tf.app.flags.DEFINE_integer(
 tf.app.flags.DEFINE_integer(
     'epsilonStep', 1000000, 'The steps of epsilon decay.')
 tf.app.flags.DEFINE_integer(
-    'ckpt_version', 189, 'The version of checkpoint file to load.')
+    'ckpt_version', 195, 'The version of checkpoint file to load.')
 
 
 
