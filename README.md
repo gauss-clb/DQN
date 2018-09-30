@@ -9,7 +9,7 @@
 
 # Training
 
-```python
+```
 python main.py
 ```
 
@@ -17,13 +17,13 @@ python main.py
 
 # Testing
 
-```python
+```
 python main.py --train=False
 ```
 
 # Saving the best result 
 
-```python
+```
 python main.py --train=False --save=True
 ```
 

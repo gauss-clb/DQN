@@ -30,22 +30,3 @@ def loss(dqn_out, target_qval, target_actions, scope):
 
 
 
-if __name__ == '__main__':
-    '''
-    def inspect(colle):
-        for var in colle:
-            print(var.op.name)
-
-    x = tf.placeholder(tf.float32, [None,84,84,3])
-    network(x, 'qnet', 4)
-    network(x, 'target', 4)
-    #network(x, 'b')
-    inspect(slim.get_model_variables(scope='qnet'))
-    '''
-    from collections import deque
-    import numpy as np
-    d = deque()
-    x = np.array([[1,2,3],[2,3,4]])
-    d.append(x.copy())
-    x[1][1]=10
-    print(d[0])
