@@ -13,18 +13,18 @@
 python main.py
 ```
 
-**The 200 epoches will take more than 3 days, you can early stop it. The records of training process will be written in the breakout.csv.** 
+**The 200 epoches will take more than 3 days, you can early stop it. The records of training process are in the `breakout.csv`.** 
 
 # Testing
 
 ```python
-python main.py train=False
+python main.py --train=False
 ```
 
 # Saving the best result 
 
 ```python
-python main.py train=False save=True
+python main.py --train=False --save=True
 ```
 
 **The best result is saved in the directory `best_result`, we can use ffmpeg to get a video.**
